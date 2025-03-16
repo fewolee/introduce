@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이철우 자기소개</title>
+    <style>
+      /* 전체 페이지 스타일 */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding: 50px 0;
+      }
+
+      /* 각 페이지 스타일 */
+      .page {
+        width: 1000px;
+        height: 600px;
+        background-color: #7fa396;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 50px;
+      }
+
+      /* 가로 바 */
+      .top-bar-first {
+        top: 15%;
+        background-color: #c4c78a;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 40px;
+      }
+      .bottom-bar-first {
+        bottom: 10%;
+        background-color: #666066;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 40px;
+      }
+      .top-bar-second {
+        top: 15%;
+        background-color: #666066;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 40px;
+      }
+      .bottom-bar-second {
+        bottom: 10%;
+        background-color: #c4c78a;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 40px;
+      }
+
+      /* 첫 번쨰 페이지 타이틀 */
+      .title-first {
+        background-color: #f7f5eb;
+        color: #2d2d2d;
+        font-weight: bold;
+        padding: 1px 50px;
+        font-size: 22px;
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      /* 두번쨰 페이지 타이틀  */
+      .title-second {
+        background-color: #f7f5eb;
+        color: #2d2d2d;
+        font-weight: bold;
+        padding: 1px 30px;
+        font-size: 20px;
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      /* 세번쨰 페이지 타이틀 */
+      .title-third {
+        background-color: #f7f5eb;
+        color: #2d2d2d;
+        font-weight: bold;
+        padding: 1px 60px;
+        font-size: 20px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      /* 마지막 페이지 타이틀 */
+      .title-last {
+        background-color: #f7f5eb;
+        color: #2d2d2d;
+        font-weight: bold;
+        padding: 1px 60px;
+        font-size: 20px;
+        position: absolute;
+        top: 240px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+
+      .title {
+        color: white;
+        font-size: 70px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      /* 키워드 페이지 스타일 */
+      .keyword-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin-top: 50px;
+      }
+      .hashtags {
+        font-size: 40px;
+        text-align: left;
+        line-height: 1.8;
+        font-weight: bold;
+        color: white;
+        flex: 1;
+      }
+      .keyword-image img {
+        width: 350px;
+        height: auto;
+        flex-shrink: 0;
+      }
+
+      /* 취미 페이지 스타일 */
+      .hobby-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+      }
+
+      /* 첫 번째 줄 (일렉기타/통기타 & 조카랑 놀아주기) */
+      .hobby-row {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+      }
+
+      /* 각 취미 아이템 */
+      .hobby-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+      }
+
+      .hobby-item img {
+        width: 430px;
+        height: 250px;
+        object-fit: cover;
+      }
+
+      /* 마지막 페이지 */
+      .end-text {
+        font-size: 50px;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 첫 번쨰 페이지 -->
+    <div class="page">
+      <div class="top-bar-first"></div>
+      <div class="title-first">ABOUT</div>
+      <h1 class="title">이철우를 소개합니다</h1>
+      <div class="bottom-bar-first"></div>
+    </div>
+
+    <!-- 두번쨰 페이지 -->
+    <div class="page">
+      <div class="title-second">KEYWORD</div>
+      <div class="keyword-content">
+        <div class="hashtags">
+          #홍익대학교<br />
+          컴퓨터공학과<br />
+          #ISFJ<br />
+          #알콜러버<br />
+          #술찌<br />
+          #백엔드<br />
+          #밴드부
+        </div>
+        <div class="keyword-image">
+          <img
+            src="https://file.notion.so/f/f/b05fc0e1-a24c-4224-9100-c8d3a0d75509/fe5ffbfb-8e2d-441d-842f-f3f0c6b84f91/%EC%B9%B4%ED%86%A1%ED%94%84%EC%82%AC.jpg?table=block&id=1b79e252-2046-808b-9c0c-c1d58482a429&spaceId=b05fc0e1-a24c-4224-9100-c8d3a0d75509&expirationTimestamp=1742133600000&signature=sm9oHGcd8HhHwyhSc44pDyszh3iewLqTFZUvkRMeeHs&downloadName=%EC%B9%B4%ED%86%A1%ED%94%84%EC%82%AC.jpg"
+            alt="소개 이미지"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- 취미 페이지 -->
+    <div class="page">
+      <div class="title-third">HOBBY</div>
+      <div class="hobby-content">
+        <!-- 첫 번째 줄 -->
+        <div class="hobby-row">
+          <div class="hobby-item">
+            <p>일렉기타/통기타</p>
+            <img
+              src="https://file.notion.so/f/f/b05fc0e1-a24c-4224-9100-c8d3a0d75509/ae2979d3-524e-422c-94ef-c222c1aac3ce/image.png?table=block&id=1b79e252-2046-809f-8aa8-c49708ac9743&spaceId=b05fc0e1-a24c-4224-9100-c8d3a0d75509&expirationTimestamp=1742076000000&signature=IYZmSfxAKeLYx8cupMn-Qn9yTKhEdf1UWxrz34s4ciY&downloadName=image.png"
+              alt="공연 사진"
+            />
+          </div>
+          <div class="hobby-item">
+            <p>조카랑 놀아주기</p>
+            <img
+              src="https://file.notion.so/f/f/b05fc0e1-a24c-4224-9100-c8d3a0d75509/a16b5d2e-5782-47c8-97eb-4b1777459aae/image.png?table=block&id=1b79e252-2046-809c-a8e5-c9c987d27948&spaceId=b05fc0e1-a24c-4224-9100-c8d3a0d75509&expirationTimestamp=1742076000000&signature=IWISFQVobA-lcndhzQMYHdc8Kw_9fv_FrxKeq7ZJJ8o&downloadName=image.png"
+              alt="조카 사진"
+            />
+          </div>
+        </div>
+
+        <!-- 두 번째 줄 -->
+        <div class="hobby-item">
+          <p>여행</p>
+          <img
+            src="https://file.notion.so/f/f/b05fc0e1-a24c-4224-9100-c8d3a0d75509/7590c51a-15ba-4940-afbb-f77944cd47e4/KakaoTalk_20250311_211111799.jpg?table=block&id=1b79e252-2046-809b-b951-c5a2a4aa0efb&spaceId=b05fc0e1-a24c-4224-9100-c8d3a0d75509&expirationTimestamp=1742068800000&signature=57nr_WH9ayq-rAaYJROMoQdxPDYgKcKz3XAh1vOxqI4&downloadName=KakaoTalk_20250311_211111799.jpg"
+            alt="여행 사진"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- 마지막 페이지 -->
+    <div class="page">
+      <div class="top-bar-second"></div>
+      <div class="title-last">END</div>
+      <h1 class="end-text">앞으로 잘 부탁드립니다!</h1>
+      <div class="bottom-bar-second"></div>
+    </div>
+  </body>
+</html>
